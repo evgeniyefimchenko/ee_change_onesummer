@@ -1,0 +1,45 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::ee_change_onesummer"
+msgid "ee_change_onesummer_name"
+msgstr "[Евгений Ефимченко] Изменения на сайте"
+
+msgctxt "Addons::description::ee_change_onesummer"
+msgid "ee_change_onesummer_description"
+msgstr "Дистрибутив модуля находится в его папке app/addons/ee_change_onesummer/ee_change_onesummer.zip"
+
+msgctxt "SettingsSections::ee_change_onesummer::general"
+msgid "ee_change_onesummer_general"
+msgstr "Общее"
+
+msgctxt "SettingsOptions::ee_change_onesummer::ee_change_onesummer_active"
+msgid "ee_change_onesummer_active"
+msgstr "Активировать"
+
+msgctxt "SettingsSections::ee_change_onesummer::promo"
+msgid "ee_change_onesummer_promo"
+msgstr "Промо"
+
+msgctxt "SettingsOptions::ee_change_onesummer::ee_change_onesummer_promo_top_act"
+msgid "ee_change_onesummer_promo_top_act"
+msgstr "Активировать оповещение"
+
+msgctxt "SettingsOptions::ee_change_onesummer::ee_change_onesummer_promo_top_text"
+msgid "ee_change_onesummer_promo_top_text"
+msgstr "Текст оповещения"
+
+msgctxt "SettingsOptions::ee_change_onesummer::ee_change_onesummer_promo_top_backcolor"
+msgid "ee_change_onesummer_promo_top_backcolor"
+msgstr "Цвет заднего фона"
+
+msgctxt "SettingsOptions::ee_change_onesummer::ee_change_onesummer_promo_top_color"
+msgid "ee_change_onesummer_promo_top_color"
+msgstr "Цвет текста"
+
+msgctxt "SettingsOptions::ee_change_onesummer::ee_change_onesummer_promo_top_bordercolor"
+msgid "ee_change_onesummer_promo_top_bordercolor"
+msgstr "Цвет рамки"
