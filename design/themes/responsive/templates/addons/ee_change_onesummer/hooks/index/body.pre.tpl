@@ -13,9 +13,9 @@
 			var top  = window.pageYOffset || document.documentElement.scrollTop,
 			left = window.pageXOffset || document.documentElement.scrollLeft;		
 			if ($('body').hasClass('fixed-header') && top > 0) {
-				$('.newmob').css('margin-top', '42px');
+				$('.newmob, .newhd').css('margin-top', '42px');
 			} else {
-				$('.newmob').css('margin-top', '0px');
+				$('.newmob, .newhd').css('margin-top', '0px');
 			}
 		});
 		/*$('.ty-menu__item').show();
