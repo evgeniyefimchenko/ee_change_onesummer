@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <addon scheme="3.0">
     <id>ee_change_onesummer</id>
-    <version>1.1.4</version>
+    <version>1.1.6</version>
     <status>active</status>
     <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
     <default_language>ru</default_language>
@@ -32,19 +32,19 @@
                     </item>
                     <item id="ee_change_onesummer_promo_top_text">                      
                         <type>input</type>
-						<default_value>Я такая вся из себя акция!</default_value>
+						<default_value><a href="https://onesummer.ru/trendy/minimalizm/">Украшения в стиле минимализм</a></default_value>
                     </item>
                     <item id="ee_change_onesummer_promo_top_backcolor">                      
                         <type>input</type>
-						<default_value>#d0eaae</default_value>
+						<default_value>#edabab</default_value>
                     </item>
                     <item id="ee_change_onesummer_promo_top_bordercolor">                      
                         <type>input</type>
-						<default_value>#8bc045</default_value>
+						<default_value>#edabab</default_value>
                     </item>                    
                     <item id="ee_change_onesummer_promo_top_color">                      
                         <type>input</type>
-						<default_value>#496e16</default_value>
+						<default_value>#000000</default_value>
                     </item>                    
                 </items>
             </section>            

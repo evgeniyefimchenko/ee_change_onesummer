@@ -42,4 +42,3 @@ function fn_ee_change_onesummer_checkout_select_default_payment_method() {
 		unset(Tygh::$app['session']['notifications'][$key]);
 	}
 }
-
