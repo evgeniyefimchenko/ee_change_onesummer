@@ -6,7 +6,7 @@ msgstr "Project-Id-Version: tygh"
 
 msgctxt "Addons::name::ee_change_onesummer"
 msgid "ee_change_onesummer_name"
-msgstr "[Евгений Ефимченко] Изменения на сайте"
+msgstr "[efimchenko.ru] Изменения на сайте"
 
 msgctxt "Addons::description::ee_change_onesummer"
 msgid "ee_change_onesummer_description"

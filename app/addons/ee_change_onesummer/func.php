@@ -22,7 +22,7 @@ function fn_ee_change_onesummer_information() {
  
 function fn_ee_change_onesummer_calculate_cart_post(&$cart, $auth, $calculate_shipping, $calculate_taxes, $options_style, $apply_cart_promotions, $cart_products, $product_groups) {
 	if (Registry::get('addons.ee_change_onesummer.ee_change_onesummer_active') == 'Y') {
-		if ($cart['product_groups'][0]['shippings'][16]['rate'] > 0 && $cart['product_groups'][0]['shippings'][16]['rate'] > 0) {
+		if (isset($cart['product_groups']) && isset($cart['product_groups'][0]) && $cart['product_groups'][0]['shippings'][16]['rate'] > 0 && $cart['product_groups'][0]['shippings'][16]['rate'] > 0) {
 			if ($cart['product_groups'][0]['shippings'][16]['data']['cost'] == $cart['product_groups'][0]['shippings'][16]['rate']) {
 				$cart['product_groups'][0]['shippings'][16]['rate'] += $cart['total'] / 100;
 			}
