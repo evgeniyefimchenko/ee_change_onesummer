@@ -10,7 +10,7 @@
 	
 	<div class="ut2-pb__wrapper clearfix">
 		
-    {hook name="products:view_main_info"}
+    {hook name="products:view_main_info1"}
         {if $product}
             {assign var="obj_id" value=$product.product_id}
             {include file="common/product_data.tpl" product=$product but_role="big" but_text=__("add_to_cart") product_labels_position="left-top"}

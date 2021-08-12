@@ -2,7 +2,7 @@
 <div class="inline-icon__icon-set" id="in_wishlist_{$product.product_id}">
 
 {if !fn_check_product_in_wishlist($product.product_id)}
-	{if !$ee_flag_first && ($runtime.controller == 'categories' && $runtime.mode == 'view') || ($runtime.controller == 'index' && $runtime.mode == 'index') || ($runtime.controller == 'products' && $runtime.mode == 'search')}
+	{if !$ee_flag_first && ($runtime.controller == 'categories' && $runtime.mode == 'view') || ($runtime.controller == 'index' && $runtime.mode == 'index') || ($runtime.controller == 'products' && $runtime.mode == 'search') || ($runtime.controller == 'products' && $runtime.mode == 'newest')}
 		<style>
 		.wlst.ut2-icon.ut2-icon-baseline-favorite-border1:before {
 			font-size: 17px;
