@@ -14,4 +14,6 @@
 
 Та же история с файлом /design/themes/abt__unitheme2/templates/addons/replace_wishlist_icon/overrides/addons/wishlist/views/wishlist/components/add_to_wishlist.tpl
 
+Та же история с файлом design/themes/abt__unitheme2/templates/addons/product_variations/hooks/products/
+
 Все файлы представлены в модуле и по идее должны перезаписываться при его установке.
